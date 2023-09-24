@@ -1,0 +1,55 @@
+/* le agregamos estilo general */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #669bbc;
+}
+/* cambiamos un poco el titulo */
+.container_titulo {
+  color: white;
+  text-transform: uppercase;
+}
+/* ahora separamos un poco la imagen del titulo */
+.container_logo {
+  margin: 20px 0;
+}
+/* modificamos el tamaño de la imagen */
+.container_logo,
+img {
+  width: 230px;
+}
+/* agregamos estilo a los botones */
+button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  margin: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.9);
+}
+.boton_clic {
+  background-color: #ffb703;
+}
+.boton_reiniciar {
+  background-color: red;
+}
+/*  agregamos estilo al contador */
+.container_contador{
+  width: 200px;
+  height: 90px;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
